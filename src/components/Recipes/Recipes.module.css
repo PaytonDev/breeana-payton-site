@@ -1,3 +1,31 @@
 .recipes_container {
-  min-height: 100vh;
+  height: 100vh;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.recipes_sidebar {
+  width: 100%;
+  max-width: 300px;
+}
+
+.recipes_main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.recipes_sidebar_button {
+  height: 3rem;
+}
+
+.component_display {
+  height: 250px;
+  width: 100%;
+}
+
+.recipe_info_container {
+  width: 75%;
+  height: 100%;
 }
