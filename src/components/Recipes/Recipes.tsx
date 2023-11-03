@@ -1,15 +1,6 @@
-import {
-  Text,
-  Box,
-  Button,
-  Flex,
-  DropdownMenu,
-  Card,
-  TextField,
-  ScrollArea,
-} from "@radix-ui/themes";
+import { Text, Button, Flex, ScrollArea } from "@radix-ui/themes";
 import { useState } from "react";
-import { MagnifyingGlassIcon, ChevronDownIcon } from "@radix-ui/react-icons";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 import s from "./Recipes.module.css";
 import DebouncedSearchFieldInfo from "./pages/DebouncedSearchField";
 import MaskedFieldInfo from "./pages/MaskedField";
@@ -62,18 +53,11 @@ export const Recipes = () => {
     });
   };
 
-  const handlePageChange = () => {
-    // TODO: resolve this
-     setSelectedPage(currentRecipeType?.pages.find(componentPage => page.title === componentPage.title))
-  }
-
-
   return (
     <Flex className={s.recipes_container} mx="auto">
       <Flex className={s.recipes_sidebar} direction="column" justify="start" gap="7" px="4" pt="7">
         {recipeTypes.map((recipeType) => {
           const isToggleType = toggleType[recipeType.value as RecipeType];
-          const currentRecipeType = recipeTypes.find((recipe) => recipe.name === recipeType.name);
           return (
             <>
               <Button
@@ -97,7 +81,12 @@ export const Recipes = () => {
                 {isToggleType &&
                   recipeType.pages.map((page) => {
                     return (
-                      <Text className={s.recipes_sidebar_page} size="4" weight="bold" onClick={() =>}>
+                      <Text
+                        className={s.recipes_sidebar_page}
+                        size="4"
+                        weight="bold"
+                        onClick={() => setSelectedPage(page)}
+                      >
                         {page.title}
                       </Text>
                     );
@@ -109,13 +98,12 @@ export const Recipes = () => {
       </Flex>
       <Flex className={s.recipes_main} direction="column">
         <ScrollArea scrollbars="vertical">
-         <RecipePage
+          <RecipePage
             title={selectedPage.title}
             description={selectedPage.description}
             component={selectedPage.component}
             body={selectedPage.body}
           />
-            
         </ScrollArea>
       </Flex>
     </Flex>
