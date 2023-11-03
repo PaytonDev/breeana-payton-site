@@ -12,11 +12,10 @@ export const Home = () => (
     justify="center"
     mx="auto"
     width="100%"
-    style={{ maxWidth: "1400px", minHeight: "100vh" }}
+    style={{ maxWidth: "1400px", minHeight: "calc(100vh - 64px)" }}
   >
     <Header />
     <Hero />
-    <Nav />
     <Box className={s.blob_container}>
       <Blob className={s.blob} />
     </Box>

@@ -1,3 +1,7 @@
 .hero_links {
   width: 75px;
 }
+
+.nav_container {
+  z-index: 1;
+}
