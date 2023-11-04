@@ -16,13 +16,13 @@ export const Blob = (props: SVGProps<SVGSVGElement>) => (
         <stop
           offset="0%"
           style={{
-            stopColor: "#182858",
+            stopColor: "#003848",
           }}
         />
         <stop
           offset="100%"
           style={{
-            stopColor: "#3e63dd",
+            stopColor: "#00befd28",
           }}
         />
       </linearGradient>

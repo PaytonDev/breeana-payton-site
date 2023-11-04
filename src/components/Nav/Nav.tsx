@@ -1,4 +1,4 @@
-import { Link, Text, Flex } from "@radix-ui/themes";
+import { Link, Text, Flex, Box } from "@radix-ui/themes";
 import { EnvelopeClosedIcon, HomeIcon } from "@radix-ui/react-icons";
 import s from "./Nav.module.css";
 
@@ -13,7 +13,7 @@ export const Nav = () => {
   ];
 
   return (
-    <Flex direction="row" align="center" justify="between" width="100%" p="4">
+    <Box width="100%" p="4" position="sticky" top="0" className={s.nav_container} mx="auto">
       <Flex direction="row" align="center" gap="4" width="100%" justify="center">
         {links.map((link) => (
           <Flex
@@ -31,6 +31,6 @@ export const Nav = () => {
           </Flex>
         ))}
       </Flex>
-    </Flex>
+    </Box>
   );
 };
