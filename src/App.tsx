@@ -1,4 +1,4 @@
-import { Home, Recipes, Nav } from "./components";
+import { Home, Recipes, Nav, Resume } from "./components";
 import { Flex } from "@radix-ui/themes";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
       <Home />
       <Nav />
       <Recipes />
+      <Resume />
     </Flex>
   );
 }

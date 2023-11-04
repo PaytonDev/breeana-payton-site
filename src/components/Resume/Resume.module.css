@@ -1,0 +1,37 @@
+.resume_container {
+  max-width: 1400px;
+  width: 100%;
+  background-color: var(--color-page-background);
+  min-height: 100vh;
+}
+
+.resume_sidebar {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  max-width: 300px;
+  padding-top: 72px;
+}
+
+.resume_main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 72px;
+}
+
+.timeline_divider {
+  width: 1px;
+  border-right: 1px solid red;
+}
+
+.radio_group {
+  height: 100%;
+}
+
+.resume_display_container {
+  width: 100%;
+}
+
+.resume_job_card {
+  min-width: 250px;
+}
