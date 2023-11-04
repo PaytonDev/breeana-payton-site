@@ -1,17 +1,19 @@
 .blob {
   width: 100%;
-  max-width: 500px;
+  width: 500px;
   max-height: 100vh;
   border-radius: 50%;
   background: transparent;
   opacity: 0.5;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blob_container {
   position: absolute;
   top: 25vh;
-  left: 30vw;
+  margin: 0 auto;
   width: 500px;
   height: 500px;
   z-index: -1;

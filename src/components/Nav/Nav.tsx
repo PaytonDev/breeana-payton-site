@@ -13,7 +13,7 @@ export const Nav = () => {
   ];
 
   return (
-    <Box width="100%" p="4" position="sticky" top="0" className={s.nav_container}>
+    <Box width="100%" p="4" position="sticky" top="0" className={s.nav_container} mx="auto">
       <Flex direction="row" align="center" gap="4" width="100%" justify="center">
         {links.map((link) => (
           <Flex

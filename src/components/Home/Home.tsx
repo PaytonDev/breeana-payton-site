@@ -1,7 +1,6 @@
 import { Flex, Box } from "@radix-ui/themes";
 import { Header } from "../Header/Header";
 import { Hero } from "../Hero/Hero";
-import { Nav } from "../Nav/Nav";
 import { Blob } from "../Blob/Blob";
 import s from "./Home.module.css";
 

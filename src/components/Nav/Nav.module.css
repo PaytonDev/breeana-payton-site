@@ -4,4 +4,6 @@
 
 .nav_container {
   z-index: 1;
+  max-width: 1400px;
+  background-color: var(--color-page-background);
 }

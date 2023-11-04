@@ -1,28 +1,32 @@
 .recipes_container {
-  height: 100vh;
   max-width: 1400px;
   width: 100%;
-  padding-top: 64px;
+  background-color: var(--color-page-background);
 }
 
 .recipes_sidebar {
   width: 100%;
+  height: 100%;
   max-width: 300px;
-  border-right: 2px solid rgba(248, 247, 247, 0.104);
+  border-top: 2px solid rgba(248, 247, 247, 0.104);
+  padding-top: 72px;
 }
 
 .recipes_main {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  padding-top: 72px;
+  border-left: 2px solid rgba(248, 247, 247, 0.104);
+  border-top: 2px solid rgba(248, 247, 247, 0.104);
 }
 
 .recipes_sidebar_button {
-  height: 3rem;
+  height: 54px !important;
 }
 
 .component_display {
-  height: 250px;
+  min-height: 250px;
   width: 100%;
 }
 
