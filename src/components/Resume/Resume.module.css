@@ -19,19 +19,16 @@
   padding-top: 72px;
 }
 
-.timeline_divider {
-  width: 1px;
-  border-right: 1px solid red;
-}
-
-.radio_group {
-  height: 100%;
-}
-
 .resume_display_container {
+  padding: 32px;
   width: 100%;
 }
 
 .resume_job_card {
   min-width: 250px;
+}
+
+.resume_main_description {
+  margin-top: 16px;
+  padding: 8px;
 }

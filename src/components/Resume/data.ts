@@ -5,27 +5,54 @@
 [ ] Organize recipe data
 */
 
-export const resume_info = [
+export const resume_data = [
   {
     company: "AutoZone",
     title: "Software Engineer",
     date: "May 2021 - Present",
-    description: [
-      "Developed and maintained a React Native application for AutoZone’s commercial customers to manage their fleet of vehicles.",
-      "Developed and maintained a React application for AutoZone’s commercial customers to manage their fleet of vehicles.",
-      "Developed and maintained a React application for AutoZone’s commercial customers to manage their fleet of vehicles.",
-      "Developed and maintained a React application for AutoZone’s commercial customers to manage their fleet of vehicles.",
-      "Developed and maintained a React application for AutoZone’s commercial customers to manage their fleet of vehicles.",
-    ],
+    description: {
+      summary:
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+      bullets: [
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+      ],
+    },
   },
   {
     company: "AT&T",
     title: "Software Engineer",
     date: "May 2020 - May 2021",
+    description: {
+      summary:
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+      bullets: [
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+      ],
+    },
   },
   {
     company: "Cox Automotive",
     title: "Implementation Specialist",
     date: "May 2019 - May 2020",
+    description: {
+      summary:
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+      bullets: [
+        "Developed and maintained internal applications for AutoZone's store operations team.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+        "Worked with a team of developers to create a new application to replace an existing legacy application.",
+      ],
+    },
   },
 ];
