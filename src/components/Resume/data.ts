@@ -1,3 +1,10 @@
+/*TODO:
+[ ] Add resume data
+[ ] Style resume display
+[ ] Add resume download button
+[ ] Organize recipe data
+*/
+
 export const resume_info = [
   {
     company: "AutoZone",
