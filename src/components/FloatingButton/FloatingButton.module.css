@@ -4,7 +4,6 @@
   right: 40px;
   z-index: 100;
   padding: 16px 24px;
-
   box-shadow: 0px 2px 5px #666;
   transition: all 0.1s ease-in-out;
   cursor: pointer;
@@ -22,4 +21,7 @@
 
 .floating_button:focus {
   outline: none;
+}
+
+.floating_content {
 }

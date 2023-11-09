@@ -1,0 +1,11 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import { {{ pascalCase name }} } from './{{pascalCase name}}';
+
+describe('{{ pascalCase name }} renders', () => {
+  it('renders the component', () => {
+    const { getByTestId } = render(<{{pascalCase name}} />);
+    const component = getByTestId('my-component');
+    expect(component).toBeInTheDocument();
+  });
+});
